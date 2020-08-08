@@ -1,0 +1,37 @@
+@font-face{
+    src: url('../fonts/roboto-condensed.light.ttf');
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.1rem;
+}
+
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#movies img, #movie img{
+    width: 100%;
+}
+
+#movie{
+    padding-bottom: 20px;
+}
+
+#search-text{
+    font-size: 1.2rem;
+}
+
+@media(min-width: 960px){
+    #movies .col-md-3 .well{
+        height: 390px;
+    }
+    
+    #movies .col-md-3 img{
+        height: 240px;
+    }
+}
